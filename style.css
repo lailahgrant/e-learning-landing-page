@@ -82,7 +82,65 @@ nav{
     color: var(--white);
 }
 
+.nav__contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.nav__contact__card{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.nav__contact__card span{
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.nav__contact__card p{
+    margin-bottom: 5px;
+    font-size: .9rem;
+    font-weight: 600;
+    color: var(--text-light);
+}
+
+.nav__contact__card h4{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-dark);
+}
 
 
+/* RESPONSIVENESS */
+@media (width > 540px)  {
+    .nav__contact{
+        gap: 2rem;
+    }
+
+    .nav__contact__card{
+        gap: 1rem;
+    }
+
+}
+
+@media (width > 768px){
+    nav{
+        padding: 2rem 1rem;
+        flex-direction: row;
+    }
+
+    .nav__logo{
+        flex:1;
+    }
+
+    .nav__contact{
+        flex: 1;
+        justify-content: flex-end;
+    }
+
+}
 
 
