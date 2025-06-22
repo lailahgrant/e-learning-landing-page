@@ -8,10 +8,12 @@ A user-friendly responsive E-learning Landing Page created in HTML, CSS, and JS.
 - HTML
 - CSS
 - JS
+- ScrollReveal library
 
 ## Features
 <hr>
 - Responsive user friendly design
+- Animation scroll reveal
 
 <hr>
 
@@ -35,5 +37,7 @@ A user-friendly responsive E-learning Landing Page created in HTML, CSS, and JS.
 
 ```
 
+## Preview
+<img src="images/project-preview-elearning.PNG" alt="preview of the project">
 
 
